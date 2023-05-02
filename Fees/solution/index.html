@@ -33,9 +33,11 @@
                                 <header class="course-article-header">
                                     <h3 class="course-article-heading">Design Basics</h3>
                                 </header>
-                                <p>Подготвителен курс</p>
-                                <button class="course-article-button">Кандидатствай</button>
-                                <footer class="course-article-footer">
+                                <div class="course-article-content">
+                                    <p>Подготвителен курс</p>
+                                    <button class="course-article-button">Кандидатствай</button>
+                                </div>
+                                <footer class="course-article-footer basics">
                                     <h3 class="course-article-heading">Базплатно</h3>
                                     <p>* 50 лв. такса за приемен изпит</p>
                                 </footer>
@@ -47,11 +49,14 @@
                                 <header class="course-article-header">
                                     <h3 class="course-article-heading">Design Basics</h3>
                                 </header>
-                                <p>Курсистите ще продължат обучението си в 6 фундаментални курса, покриващи основните
-                                    сфери на дизайна и визуализацията.</p>
-                                <p>Възможност за заплащане на таксата на 2 равни вноски.</p>
-                                <footer class="course-article-footer">
-                                    <ul class="price-list price-list-fundamentals">
+                                <div class="course-article-content">
+                                    <p>Курсистите ще продължат обучението си в 6 фундаментални курса, покриващи
+                                        основните
+                                        сфери на дизайна и визуализацията.</p>
+                                    <p>Възможност за заплащане на таксата на 2 равни вноски.</p>
+                                </div>
+                                <footer class="course-article-footer fundamentals">
+                                    <ul class="price-list">
                                         <li class="price-list-item">
                                             <h3 class="course-article-heading">680 лв.</h3>
                                             <p>присъствено за 6 курса</p>
@@ -70,11 +75,13 @@
                                 <header class="course-article-header">
                                     <h3 class="course-article-heading">Design Basics</h3>
                                 </header>
-                                <p>Курсистите преминават към обучение в професионалните модули, специализирайки се в
-                                    избраното професионално направление.</p>
-                                <p>Обявената такса е преференциална за курсистите от Fundamentals Program.</p>
-                                <footer class="course-article-footer">
-                                    <ul class="price-list price-list-professional">
+                                <div class="course-article-content">
+                                    <p>Курсистите преминават към обучение в професионалните модули, специализирайки се в
+                                        избраното професионално направление.</p>
+                                    <p>Обявената такса е преференциална за курсистите от Fundamentals Program.</p>
+                                </div>
+                                <footer class="course-article-footer professional">
+                                    <ul class="price-list">
                                         <li class="price-list-item">
                                             <h3 class="course-article-heading">330 лв.</h3>
                                             <p>присъствено за модул</p>
@@ -109,10 +116,10 @@
                                 <td>
                                     Присъствие в учебните зали на всички занятия от програмата
                                 </td>
-                                <td>
+                                <td class="col-2">
                                     <img src="./images/check.svg" />
                                 </td>
-                                <td>
+                                <td class="col-3">
                                     <img src="./images/cross.svg" />
                                 </td>
                             </tr>
@@ -120,10 +127,10 @@
                                 <td>
                                     Възможност за личен контакт с преподавателя и курсистите наживо
                                 </td>
-                                <td>
+                                <td class="col-2">
                                     <img src="./images/check.svg" />
                                 </td>
-                                <td>
+                                <td class="col-3">
                                     <img src="./images/cross.svg" />
                                 </td>
                             </tr>
@@ -131,10 +138,10 @@
                                 <td>
                                     Онлайн обучение в реално време и възможнос за въпроси
                                 </td>
-                                <td>
+                                <td class="col-2">
                                     <img src="./images/check.svg" />
                                 </td>
-                                <td>
+                                <td class="col-3">
                                     <img src="./images/check.svg" />
                                 </td>
                             </tr>
@@ -142,10 +149,10 @@
                                 <td>
                                     Доживотен достъп до видео записите и учебните ресурси от всички занятия
                                 </td>
-                                <td>
+                                <td class="col-2">
                                     <img src="./images/check.svg" />
                                 </td>
-                                <td>
+                                <td class="col-3">
                                     <img src="./images/check.svg" />
                                 </td>
                             </tr>
@@ -153,10 +160,10 @@
                                 <td>
                                     Издаване на държавно признато удостоверение от МОН
                                 </td>
-                                <td>
+                                <td class="col-2">
                                     <img src="./images/check.svg" />
                                 </td>
-                                <td>
+                                <td class="col-3">
                                     <img src="./images/check.svg" />
                                 </td>
                             </tr>
@@ -164,10 +171,10 @@
                                 <td>
                                     Достъп до кариерен център и съдействие за стартиране на работа
                                 </td>
-                                <td>
+                                <td class="col-2">
                                     <img src="./images/check.svg" />
                                 </td>
-                                <td>
+                                <td class="col-3">
                                     <img src="./images/check.svg" />
                                 </td>
                             </tr>
@@ -179,21 +186,31 @@
             <section class="section-financing">
                 <div class="inner-holder">
                     <h2 class="section-subheading">Финансиране от Пощенска банка</h2>
-                    <p>
-                        Всички курсисти могат да се възползват от преференциалните условия за потребителски кредит и
-                        овърдрафт, за финансиране на своето обучение в СофтУни, като заявят лесно и удобно избрания
-                        продукт.
-                    </p>
-                    <p>
-                        При последващ разговор със служител на банката, следва да се уточни, че искането е за кредит за
-                        финансиране на обучение в SoftUni и да се предостави студентски номер.
-                    </p>
-                    <p>
-                        www.postbank.bg - при попълване на апликацията, в поле "промоционален код" трябва да се въведе
-                        SoftUni/СофтУни
-                    </p>
-
-                    <img src="./images/postbank-logo.png" />
+                    <div class="content-wrap">
+                        <div>
+                            <p>
+                                Всички курсисти могат да се възползват от преференциалните условия за потребителски
+                                кредит и
+                                овърдрафт, за финансиране на своето обучение в СофтУни, като заявят лесно и удобно
+                                избрания
+                                продукт.
+                            </p>
+                            <p>
+                                При последващ разговор със служител на банката, следва да се уточни, че искането е за
+                                кредит
+                                за
+                                финансиране на обучение в SoftUni и да се предостави студентски номер.
+                            </p>
+                            <p>
+                                www.postbank.bg - при попълване на апликацията, в поле "промоционален код" трябва да се
+                                въведе
+                                SoftUni/СофтУни
+                            </p>
+                        </div>
+                        <div class="logo-holder">
+                            <img class="bank-logo" src="./images/postbank-logo.png" />
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>

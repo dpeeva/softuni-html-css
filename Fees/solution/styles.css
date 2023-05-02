@@ -1,0 +1,206 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.inner-holder {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.main-header {
+    padding: 20px 0;
+}
+
+.main-header .inner-holder {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.main-nav-link {
+    padding: 10px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    transition: color .4s ease;
+}
+
+.main-nav-link:hover {
+    color: #000;
+}
+
+.logo {
+    width: 150px;
+}
+
+.section-taxes {
+    position: relative;
+    padding: 40px 0;
+}
+
+.section-taxes .inner-holder {
+    position: relative;
+    z-index: 1;
+}
+
+.section-taxes:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    padding: 40px 0 300px;
+    width: 100%;
+    background-color: #54546d;
+    background-image: url("./images/calculator-icon.svg");
+    background-position: -40px 70px;
+    background-repeat: no-repeat;
+}
+
+.section-heading {
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.courses-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.courses-list-item {
+    margin: 0 10px;
+    width: 33.33%;
+    background-color: #fff;
+}
+
+.course-article {
+    display: grid;
+
+}
+
+.course-article-header {
+    grid-row: 1;
+}
+
+.course-article-content {
+    grid-row: 2;
+    min-height: 200px;
+}
+
+.course-article-footer {
+    grid-row: 3;
+    padding: 10px;
+    min-height: 135px;
+}
+
+.course-article-content {}
+
+.price-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.price-list-item {
+    padding: 10px;
+    width: 50%;
+}
+
+.price-list-item:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+
+.course-article-footer {
+    color: #fff;
+}
+
+.basics {
+    background-color: green;
+}
+
+.fundamentals {
+    background-color: blue;
+}
+
+.professional {
+    background-color: violet;
+}
+
+
+.section-attendance {}
+
+.table-attendance {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-attendance tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+.table-attendance td {
+    padding: 10px;
+}
+
+.table-attendance .col-2 {
+    width: 150px;
+    /* padding: 10px 30px; */
+    text-align: center;
+}
+
+.table-attendance .col-3 {
+    width: 150px;
+    /* padding: 10px 30px; */
+    text-align: center;
+}
+
+.section-financing {
+    padding: 20px 0;
+}
+
+.content-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.logo-holder {
+    padding-left: 40px;
+}
+
+.bank-logo {}
+
+.main-footer {
+    padding: 20px;
+    background-color: #54546d;
+    color: #fff;
+    text-align: center;
+}
