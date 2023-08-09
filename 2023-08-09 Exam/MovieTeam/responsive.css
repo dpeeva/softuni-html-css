@@ -1,0 +1,115 @@
+@media only screen and (max-width: 600px) {
+    header nav {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 0.15em 0;
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .header-title {
+        padding: 1.5em 0;
+    }
+
+    .header-title h1 {
+        font-size: 36px;
+    }
+
+    .about-us {
+        width: 80%;
+    }
+
+    .about-us p:nth-child(3) {
+        width: 100%;
+    }
+
+    .team-description ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-description ul li {
+        padding: 0 0 40px;
+        flex-basis: 50%;
+    }
+
+    .team-description ul li img {
+        width: auto;
+        height: auto;
+        max-width: 210px;
+        object-fit: cover;
+    }
+
+    .choose-us ul {
+        flex-direction: column;
+    }
+
+    .choose-us li {
+        padding-bottom: 1.5em;
+    }
+
+    .choose-us li img {
+        width: 8.5em;
+        height: 8.5em;
+    }
+
+    .choose-us li p {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    .blog-section p:nth-child(2),
+    .team-description p:nth-child(2),
+    .about-us p:nth-child(2) {
+        font-size: 1.05em;
+    }
+
+    .blog-news ul {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .blog-news>p {
+        font-size: 1.05em;
+    }
+
+    .blog-news ul .item {
+        flex-basis: 100%;
+        width: 420px;
+        align-self: center;
+    }
+
+    .blog-news ul .item .avatar {
+        height: 210px;
+        background-color: red;
+    }
+
+    .blog-news ul .item .avatar img {
+        height: 100%;
+    }
+
+    .blog-news .content {
+        padding: 1rem;
+    }
+
+    .blog-news .content h4 {
+        font-size: 16px;
+    }
+
+    .blog-news .content p {
+        font-size: 14px;
+    }
+}
