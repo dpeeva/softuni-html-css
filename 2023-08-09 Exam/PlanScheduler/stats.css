@@ -1,0 +1,33 @@
+.section-stats .inner-wrap {
+    padding: 0 65px;
+}
+
+.stats-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-list-item {
+    padding: 3em 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.stats-number {
+    display: block;
+    padding: 0.6em 0;
+    font-size: 3em;
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.stats-title {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.stats-content {
+    font-size: 0.8em;
+}

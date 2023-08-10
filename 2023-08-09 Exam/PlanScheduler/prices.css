@@ -1,0 +1,73 @@
+.section-prices {
+    padding: 0 85px;
+    background-color: var(--light-background);
+}
+
+.section-prices .inner-wrap {
+    display: flex;
+    padding: 3em;
+    background-color: var(--white-color);
+}
+
+.section-prices .section-header {
+    padding-right: 2em;
+    flex-basis: 45%;
+    line-height: 1.2;
+}
+
+.section-header .section-title {
+    padding: 1.5em 0;
+}
+
+.pricing-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+}
+
+.pricing-list-item {
+    padding: 2em;
+    flex-basis: 100%;
+    box-shadow: 11px 11px 12px -3px rgba(0, 0, 0, 0.13);
+    text-align: center;
+}
+
+.pricing-list-item.accent {
+    background-color: var(--accent-color);
+}
+
+.pricing-list-item.black {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.pricing-list-item .section-subtitle {
+    padding: 0.5em 0 1.25em;
+}
+
+.price {
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.details-text {
+    font-size: 1.1em;
+}
+
+.package-list {
+    padding: 1.25em 0;
+    font-weight: 400;
+}
+
+.package-item {
+    padding: 0.25em 0;
+}
+
+.package-item .accent {
+    padding: 0 5px;
+}
+
+.pricing-list-item .cta-button {
+    margin: 1em 0;
+}

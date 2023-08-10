@@ -1,0 +1,58 @@
+.section-plans {
+    padding: 2.5em 0;
+    background-color: var(--dark-color);
+}
+
+.plans-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.plan-item {
+    display: flex;
+}
+
+.plan-item img {
+    max-width: 100%;
+    width: 624px;
+    height: 427px;
+}
+
+.section-title {
+    padding: 1.25em 0;
+    font-size: 2em;
+}
+
+.plan-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.plan-label {
+    color: var(--dark-text);
+    font-size: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.plan-description {
+    line-height: 1.2;
+    font-size: 1.1em;
+    color: var(--dark-text);
+}
+
+.plan-author {
+    margin-top: auto;
+    font-size: 1.1em;
+    color: var(--dark-text);
+}
+
+.read-more {
+    display: inline-block;
+    padding: 0.2em 0;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: var(--black-color);
+}

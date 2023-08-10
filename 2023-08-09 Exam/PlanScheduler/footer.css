@@ -1,0 +1,16 @@
+.footer-main {
+    background-color: var(--light-color);
+}
+
+.social {
+    display: flex;
+    padding: 2.5em 250px;
+    justify-content: space-between;
+}
+
+.social-link {
+    padding: 0.5em;
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1.25em;
+}
